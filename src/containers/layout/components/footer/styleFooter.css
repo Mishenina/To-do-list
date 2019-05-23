@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'SFUIDisplay-Regular';
+    src: local('SFUIDisplay-Regular'), url('http://nomail.com.ua/files/woff/d4550c5e326a628ac8ef82e9f2703484.woff') format('woff');
+}
+
+.footer {
+    background-color: #353741;
+    height: 125px;
+    padding-top: 50px;
+    padding-bottom: 57px;
+    box-sizing: border-box;
+}
+
+.footer__menu {
+    width: 1013px;
+    margin: auto;
+}
+
+.footer__menu-element {
+    list-style: none;
+    float: left;
+    color: #9ea0a7;
+    margin-right: 88px;
+}
+
+.footer__menu-element_right {
+    float: right;
+    padding-top: 5px;
+    margin-right: 70px;
+}
+
+.footer__menu-element_text {
+    font-size: 18px;
+    font-family: 'SFUIDisplay-Regular', sans-serif;
+    color: #9ea0a7;
+    text-transform: uppercase;
+}
+
+.footer__menu-element_link {
+    color: #9ea0a7;
+    text-decoration: none;
+    display: inline;
+}
+
+.footer__menu-element_info {
+    font-size: 14px;
+    color: rgb(140, 141, 148)
+}

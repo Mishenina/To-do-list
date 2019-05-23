@@ -1,0 +1,62 @@
+@font-face { font-family: 'SFUIText-Light';  src: local('SFUIText-Light'), url('http://nomail.com.ua/files/woff/433cdd63339cb887e50d1201fdd84afd.woff') format('woff'); }
+
+.filter {
+    background-color: #f5fef7;
+    border-radius: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.07);
+    display: block;
+    width: 73%;
+    height: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+}
+
+
+.filter__menu-element {
+    border-radius: 100%;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 40px;
+    font-size: 16px;
+    font-family: 'SFUIText-Light', sans-serif;
+    color: #777d77;
+    margin-right: 65px;
+    margin-left: 65px;
+    margin-top: 15px;
+}
+
+.filter__menu-element_radio {
+    display: none;
+}
+
+.filter__menu-element:before {
+    content: "";
+    display: inline-block;
+
+    width: 16px;
+    height: 16px;
+
+    border: 2px solid #d4d7d5;
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    background-color: transparent;
+    border-radius: 100%;
+}
+
+
+
+.filter__menu-element_radio:checked + .filter__menu-element:before {
+    content: "\2022";
+    color: #d0d2d0;
+    font-size: 33px;
+    text-align: center;
+    line-height: 11px;
+    /* display: block;
+     pointer-events: none;*/
+}
+
+
